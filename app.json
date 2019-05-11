@@ -2,14 +2,39 @@
   "pages": [
     "pages/index/index",
     "pages/pay/pay",
-    "pages/order/order"
+    "pages/order/order",
+    "pages/mine/mine",
+    "pages/takeMeals/takeMeals"
   ],
   "window": {
-    "backgroundTextStyle": "light",
+    "backgroundTextStyle": "dark",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "手机点单",
+    "navigationBarTitleText": "水果捞Go",
     "navigationBarTextStyle": "black",
     "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#95a5a6",
+    "selectedColor": "#000",
+    "borderStyle": "black",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "点单",
+      "iconPath": "images/1.png",
+      "selectedIconPath": "images/1.png"
+    },
+    {
+      "pagePath": "pages/takeMeals/takeMeals",
+      "text": "取餐",
+      "iconPath": "images/2.png",
+      "selectedIconPath": "images/2.png"
+    },
+    {
+      "pagePath": "pages/mine/mine",
+      "text": "我的",
+      "iconPath": "images/3.png",
+      "selectedIconPath": "images/3.png"
+    }]
   },
   "sitemapLocation": "sitemap.json"
 }
